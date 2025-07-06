@@ -1,0 +1,140 @@
+.app {
+  display: flex;
+  height: 100vh;
+  background-color: #0a0a0a;
+  color: #e0e0e0;
+  font-family: 'Syne', sans-serif;
+}
+
+.sidebar {
+  width: 320px;
+  background-color: #111;
+  border-right: 1px solid #222;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  overflow-y: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 800;
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #eee;
+}
+
+.header button {
+  background: none;
+  border: 1.5px solid #eee;
+  color: #eee;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.header button:hover {
+  background-color: #eee;
+  color: #0a0a0a;
+}
+
+.main {
+  flex: 1;
+  padding: 30px;
+  overflow-y: auto;
+  background-color: #0a0a0a;
+}
+
+.main h2 {
+  margin-bottom: 15px;
+  font-weight: 800;
+}
+
+.placeholder {
+  font-style: italic;
+  color: #888;
+  font-size: 1.1rem;
+}
+
+button {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1.5px solid #eee;
+  background: none;
+  color: #eee;
+  padding: 8px 14px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #eee;
+  color: #0a0a0a;
+}
+
+button:disabled {
+  border-color: #555;
+  color: #666;
+  cursor: not-allowed;
+}
+
+input, textarea, select {
+  font-family: 'Syne', sans-serif;
+  font-weight: 600;
+  border-radius: 8px;
+  border: 1.5px solid #eee;
+  background-color: #111;
+  color: #eee;
+  padding: 8px 14px;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #888;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #ffffff;
+  background-color: #222;
+  color: #eee;
+}
+#noHover:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+  cursor: default !important;
+}
+
+.newInvoiceBtn {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newInvoiceBtn:disabled {
+  border-color: #666;
+  color: #666;
+  cursor: not-allowed;
+  background-color: transparent;
+}
+
+.newInvoiceBtn:not(:disabled):hover {
+  background-color: white;
+  color: black;
+}

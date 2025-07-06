@@ -1,0 +1,25 @@
+.content {
+  background-color: #111;
+  color: #eee;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  font-family: 'Syne', sans-serif;
+}
+
+.closeBtn {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: none;
+  border: 1px solid #eee;
+  color: #eee;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.closeBtn:hover {
+  background-color: #eee;
+  color: #111;
+}

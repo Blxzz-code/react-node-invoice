@@ -1,0 +1,23 @@
+.container {
+  color: white;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.itemsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.itemsTable th,
+.itemsTable td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+
+.itemsTable th {
+  background-color: #222;
+}

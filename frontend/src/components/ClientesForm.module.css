@@ -1,0 +1,8 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-family: 'Syne', sans-serif;
+  color: #eee;
+}
+

@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #eee;
+  font-size: 1rem;
+  font-family: 'Syne', sans-serif;
+}
+
+.table th,
+.table td {
+  padding: 12px 14px;
+  border-bottom: 1px solid #333;
+  text-align: left;
+}
+
+.table th {
+  background-color: #111;
+  font-weight: 700;
+}
+
+.table tbody tr:hover {
+  background-color: #222;
+  cursor: pointer;
+}
+
+.noInvoices {
+  color: #888;
+  font-style: italic;
+  padding: 20px 0;
+}
