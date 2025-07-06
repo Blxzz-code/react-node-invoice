@@ -4,7 +4,6 @@ import styles from './FacturaDetalle.module.css';
 export default function FacturaDetalle({ invoice }) {
   const items = invoice.items || [];
 
-  // Calcular total sumando cantidad * precio de cada ítem
   const total = items.reduce((acc, item) => {
     const price = Number(item.price) || 0;
     const qty = Number(item.quantity) || 0;
