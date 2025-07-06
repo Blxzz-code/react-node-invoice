@@ -43,43 +43,33 @@
 ```bash
 git clone https://github.com/tu-usuario/react-node-invoice.git
 cd react-node-invoice
+
 2. Configurar el backend
-bash
-Copiar
-Editar
+
 cd backend
 npm install
 Crea un archivo .env con tus variables de entorno:
 
-ini
-Copiar
-Editar
 DB_HOST=localhost
 DB_USER=tu_usuario
 DB_PASSWORD=tu_password
 DB_NAME=nombre_base_de_datos
 PORT=4000
+
 3. Configurar el frontend
-bash
-Copiar
-Editar
+
 cd ../frontend
 npm install
 Asegúrate de que las llamadas fetch en React apunten a tu backend (http://localhost:4000/api).
 
 4. Ejecutar la aplicación
+
 En terminal 1 (backend):
 
-bash
-Copiar
-Editar
 cd backend
 npm start
 En terminal 2 (frontend):
 
-bash
-Copiar
-Editar
 cd frontend
 npm start
 Accede a la app desde tu navegador en:
