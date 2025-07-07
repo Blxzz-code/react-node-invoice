@@ -38,9 +38,9 @@
 
 ## Instalación y ejecución
 
-### 1. Clonar el repositorio
-
 ```bash
+1. Clonar el repositorio
+
 git clone https://github.com/tu-usuario/react-node-invoice.git
 cd react-node-invoice
 
